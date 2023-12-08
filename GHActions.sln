@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHActions", "GHActions\GHActions.csproj", "{6ACD41CC-FA2E-455A-886A-7A95B2F79BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHA-Tests", "GHA-Tests\GHA-Tests.csproj", "{4D384AD1-14C9-466F-A01B-A992A348B43B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ACD41CC-FA2E-455A-886A-7A95B2F79BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACD41CC-FA2E-455A-886A-7A95B2F79BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACD41CC-FA2E-455A-886A-7A95B2F79BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACD41CC-FA2E-455A-886A-7A95B2F79BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D384AD1-14C9-466F-A01B-A992A348B43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D384AD1-14C9-466F-A01B-A992A348B43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D384AD1-14C9-466F-A01B-A992A348B43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D384AD1-14C9-466F-A01B-A992A348B43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
