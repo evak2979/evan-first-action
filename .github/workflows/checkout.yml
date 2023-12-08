@@ -1,10 +1,12 @@
 name: Build and Test
 on: workflow_dispatch
 jobs:
-  Build:
+  Checkout and Download:
     runs-on: ubuntu-latest
     steps:
         - name: Checkout
           uses: actions/checkout@v4.1.1
         - name: Install Dotnet
           uses: actions/setup-dotnet@v4.0.0
+        - name: Restore dependencies
+          run: dotnet restore GHActions.sln
