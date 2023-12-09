@@ -1,0 +1,28 @@
+name: Deploy Project
+on: push
+jobs:
+  test:    
+    runs-on: ubuntu-latest
+    name: Checkout, Build and Test
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v4.1.1
+        - name: Install Dotnet
+          uses: actions/setup-dotnet@v4.0.0
+        - name: Restore dependencies
+          run: dotnet restore GHActions.sln
+        - name: Test
+          run:  dotnet test GHActions.sln            
+  deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v4.1.1
+        - name: Install Dotnet
+          uses: actions/setup-dotnet@v4.0.0
+        - name: Restore dependencies
+          run: dotnet restore GHActions.sln
+        - name: Build project
+          run: dotnet build GHActions.sln
+        - name: Deploy
+          run: echo Deploying...
