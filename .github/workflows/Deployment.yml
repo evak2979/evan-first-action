@@ -43,7 +43,7 @@ jobs:
               package.nuget
         - name: Publish Package Name
           id: publish
-          run: find GHActions\bin\Debug\net8.0\GHActions.dll -type f -execdir echo 'file={}' >> $GITHUB_OUTPUT ';'
+          run: find GHActions/bin/Debug/et8.0/GHActions.dll -type f -execdir echo 'file={}' >> $GITHUB_OUTPUT ';'
   deploy:
       needs: build
       name: Deploy
