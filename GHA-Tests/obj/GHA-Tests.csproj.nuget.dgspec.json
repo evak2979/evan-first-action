@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\GHA\\GHActions\\GHA-Tests\\GHA-Tests.csproj": {}
+    "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\GHA-Tests.csproj": {}
   },
   "projects": {
-    "C:\\Code\\GHA\\GHActions\\GHA-Tests\\GHA-Tests.csproj": {
+    "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\GHA-Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\GHA\\GHActions\\GHA-Tests\\GHA-Tests.csproj",
+        "projectUniqueName": "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\GHA-Tests.csproj",
         "projectName": "GHA-Tests",
-        "projectPath": "C:\\Code\\GHA\\GHActions\\GHA-Tests\\GHA-Tests.csproj",
+        "projectPath": "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\GHA-Tests.csproj",
         "packagesPath": "C:\\Users\\eakto\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\GHA\\GHActions\\GHA-Tests\\obj\\",
+        "outputPath": "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eakto\\AppData\\Roaming\\NuGet\\NuGet.Config"

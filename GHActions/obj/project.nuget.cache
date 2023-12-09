@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NbqQZDmhri+Il6V2UziZZJW7rGq9JzVKAAVuM4blUAbf9mp8PJLlCyhXULgcIoWgiC1yi7Cx2YXMMS4dKFgg/A==",
+  "dgSpecHash": "gVVVPV/NZzl7W5X6159WknyvI7OkQ0657rh1EaOK89P7Rv53Auv4JNy3UYS24BurlEBqF1mRif9OIMVvn+bW8Q==",
   "success": true,
-  "projectFilePath": "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj",
+  "projectFilePath": "C:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

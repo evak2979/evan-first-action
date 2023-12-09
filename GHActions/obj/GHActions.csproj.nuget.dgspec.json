@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj": {}
+    "C:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj": {}
   },
   "projects": {
-    "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj": {
+    "C:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj",
+        "projectUniqueName": "C:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj",
         "projectName": "GHActions",
-        "projectPath": "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj",
+        "projectPath": "C:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj",
         "packagesPath": "C:\\Users\\eakto\\.nuget\\packages\\",
-        "outputPath": "C:\\Code\\GHA\\GHActions\\GHActions\\obj\\",
+        "outputPath": "C:\\Code\\GHA\\evan-first-action\\GHActions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eakto\\AppData\\Roaming\\NuGet\\NuGet.Config"

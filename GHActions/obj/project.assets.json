@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj",
+      "projectUniqueName": "c:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj",
       "projectName": "GHActions",
-      "projectPath": "C:\\Code\\GHA\\GHActions\\GHActions\\GHActions.csproj",
+      "projectPath": "c:\\Code\\GHA\\evan-first-action\\GHActions\\GHActions.csproj",
       "packagesPath": "C:\\Users\\eakto\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\GHA\\GHActions\\GHActions\\obj\\",
+      "outputPath": "c:\\Code\\GHA\\evan-first-action\\GHActions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eakto\\AppData\\Roaming\\NuGet\\NuGet.Config"

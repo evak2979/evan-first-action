@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E4GPrkCrdga533nPp0oa2M2QCdCEN8H4U1BXFXXOUBaDehvuj3F2VKog0s9MpbTHJoNe9jXufQmRWB5bhUpQRQ==",
+  "dgSpecHash": "Ha9rwtbuu8zc6KBT2b8KIRPHuykBRIwy7ockSDfM+DlCKV2aopJWo2Rt0qcjqD6QyJlfmjGVuFqSgl86LBvtFQ==",
   "success": true,
-  "projectFilePath": "C:\\Code\\GHA\\GHActions\\GHA-Tests\\GHA-Tests.csproj",
+  "projectFilePath": "C:\\Code\\GHA\\evan-first-action\\GHA-Tests\\GHA-Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eakto\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\eakto\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
