@@ -39,5 +39,12 @@ jobs:
             path: | 
               ./GHActions/bin/Debug/net8.0
               package.nuget
+        - name: Get build artifacts
+          uses: actions/download-artifact@v3
+          with:
+            name: dll-files
+        - name: Output contents
+          run: ls
         - name: Deploy
-          run: echo Deploying...
+          run: echo "Deploying..."
+          
