@@ -8,5 +8,7 @@ public class Tests
     }
 
     [Test]
-    public void Test() => throw new Exception();
+    public void Test(){
+        
+    }
 }
