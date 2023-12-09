@@ -37,7 +37,7 @@ jobs:
           with:
             name: dll-files
             path: | 
-              release
-              package.json
+              ./GHActions/bin/Debug/net8.0
+              package.nuget
         - name: Deploy
           run: echo Deploying...
