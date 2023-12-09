@@ -19,7 +19,7 @@ jobs:
           run: dotnet restore GHActions.sln
         - name: Test
           run:  dotnet test GHActions.sln            
-  deploy:
+  build:
       needs: test
       name: Build and Deploy
       runs-on: ubuntu-latest
@@ -39,6 +39,11 @@ jobs:
             path: | 
               ./GHActions/bin/Debug/net8.0
               package.nuget
+  deploy:
+      needs: build
+      name: Build and Deploy
+      runs-on: ubuntu-latest              
+      steps:
         - name: Get build artifacts
           uses: actions/download-artifact@v3
           with:
